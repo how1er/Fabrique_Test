@@ -44,8 +44,8 @@ python manage.py migrate
 ```
 - Получение общей статистики по созданным рассылкам и количеству отправленных сообщений по ним с группировкой по статусам
 ```
-/api/mailing_list_statistic
+/api/mailing_list/fullinfo/
 ```
 - Получение детальной статистики отправленных сообщений по конкретной рассылке
 ```
-/api/mailing_list_statistic/<int>
+/api/mailing_list/<pk>/info/
