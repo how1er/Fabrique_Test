@@ -18,6 +18,7 @@ from django.urls import path, include
 from rest_framework import routers
 from notification_service.views import ClientViewSet, MailingViewSet, MessageViewSet
 
+
 router = routers.DefaultRouter()
 router.register(r'clients', ClientViewSet)
 router.register(r'messages', MessageViewSet)
